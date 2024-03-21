@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Page</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Assignment Page</h1>
+        
+        <p>This is a line demonstrating the use of inline styles for <span style="font-style: italic;">italic text</span> and <span style="font-weight: bold;">bold text</span>.</p>
+        
+        <p>Here's a <a href="https://www.example.com">link</a> to an example website.</p>
+        
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Roll No.</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Abdul Aziz Khan</td>
+                <td>213040</td>
+                <td>abdulazizkhan107925@gmail.com</td>
+            </tr>
+        </table>
+        
+        <form>
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your email">
+            <textarea placeholder="Enter your message"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
